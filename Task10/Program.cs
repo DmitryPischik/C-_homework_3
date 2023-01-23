@@ -18,7 +18,7 @@ void PrintArr(int[] array) // функция просматривает масс
     Console.WriteLine();
 }
 
-void CheckTwoArr(int[] array)
+void CheckTwoArr(int[] array) // функция считает количество элементов массива из отрезка [10,99].
 {
     int count = 0;
     foreach (int item in array)
